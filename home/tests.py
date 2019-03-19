@@ -19,3 +19,6 @@ class UtilsTest(TestCase):
     def test_sub(self):
         self.assertEquals(sub_sample(self.x, self.y), 3)
         self.assertNotEquals(sub_sample(self.x, self.y), 8)
+
+    def test_sub2(self):
+        self.assertEquals(sub_sample(6, 3), 3)
